@@ -1,0 +1,34 @@
+body{
+    background-color: #ffa600;
+    text-align: center;
+    color:#fff;
+}
+
+.wrapper{
+    position: relative;
+	height: 100vh;
+    width: 100%;
+}
+h1{
+    font-size: 100px;
+}
+#stopwatch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: 80px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 10px;
+}
+button:hover{
+    border:1px solid #ddd;
+}

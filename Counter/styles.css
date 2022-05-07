@@ -1,0 +1,53 @@
+.main-wrapper {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  background-color: aliceblue;
+  border: 1px solid #ddd;
+}
+
+.main-wrapper .m-auto {
+  margin: auto;
+}
+
+.main-wrapper .m-auto h3 {
+  text-align: center;
+}
+
+.main-wrapper .m-auto .counter-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+}
+
+.main-wrapper .m-auto .counter-row .negative, .main-wrapper .m-auto .counter-row .positive {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+}
+
+.main-wrapper .m-auto .counter-row .negative:hover, .main-wrapper .m-auto .counter-row .positive:hover {
+  background: blue;
+  color: #fff;
+}
+
+.main-wrapper .m-auto .reset {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.main-wrapper .m-auto .reset button {
+  width: 100px;
+  background-color: red;
+  height: 30px;
+  border: 1px solid red;
+  color: #fff;
+}
+/*# sourceMappingURL=styles.css.map */

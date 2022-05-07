@@ -1,0 +1,40 @@
+.main-wrapper{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px solid #ddd;
+    .m-auto{
+        margin: auto;
+        h3{
+            text-align: center;
+        }
+        .counter-row{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 3rem;
+            .negative, .positive{
+                background: #fff;
+                border: 1px solid #ddd;
+                padding:0.5rem 1rem;
+                &:hover{
+                    background: blue;
+                    color: #fff;
+                }
+            }
+        }
+        .reset{
+            text-align: center;
+            padding-top: 2rem;
+           button{
+               width: 100px;
+               background-color: red;
+               height: 30px;
+               border: 1px solid red;
+               color: #fff;
+           }
+        }
+    }
+    
+}
